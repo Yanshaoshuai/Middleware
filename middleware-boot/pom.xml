@@ -9,7 +9,7 @@
     </parent>
     <artifactId>middleware-boot</artifactId>
     <name>middleware-boot</name>
-    <description>boot</description>
+    <description>middleware-boot</description>
     <url/>
     <licenses>
         <license/>
@@ -29,13 +29,24 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.lettuce</groupId>
+            <artifactId>lettuce-core</artifactId>
+            <version>6.5.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>co.elastic.clients</groupId>
+            <artifactId>elasticsearch-java</artifactId>
+            <version>8.17.0</version>
         </dependency>
     </dependencies>
 

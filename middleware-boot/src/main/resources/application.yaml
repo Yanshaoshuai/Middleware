@@ -1,0 +1,18 @@
+spring.application.name: boot
+
+redis:
+  cluster:
+    timeout: 5000
+    nodes:
+      - host: 192.168.1.21
+        port: 6379
+      - host: 192.168.1.21
+        port: 6380
+      - host: 192.168.1.22
+        port: 6379
+      - host: 192.168.1.22
+        port: 6380
+      - host: 192.168.1.23
+        port: 6379
+      - host: 192.168.1.23
+        port: 6380
